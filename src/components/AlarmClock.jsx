@@ -1,7 +1,4 @@
-// beautiful UI
-// swipe up btn
-// timepicker
-// add snooze btn
+
 
 import '../styles/alarmClock.css'
 import { useState,useEffect,useRef } from 'react'
