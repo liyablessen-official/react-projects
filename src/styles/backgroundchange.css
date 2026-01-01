@@ -1,0 +1,38 @@
+.autobckground-container{
+    width: 90vw;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;     /* keeps focus centered */
+    background-attachment: fixed;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .autobckground{
+    font-size: 1.5rem;
+    margin: 0;
+    background-color: rgb(142, 151, 160);
+
+    padding: 5px 10px;
+    border-radius: 10px;
+} */
+
+.autobckground-textcontent{
+    background-color: rgb(142, 151, 160);
+    padding:10px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.autobckground-textcontent h3{
+    font-size: 1.5rem;
+    /* background-color: rgb(142, 151, 160); */
+    
+}
+.autobckground-textcontent p{
+    margin-top: 20px;
+}

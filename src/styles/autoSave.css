@@ -1,0 +1,75 @@
+.autosave-h3{
+    font-size: 1.5rem;
+    color: #216869;
+}
+.autosave-container{
+    margin-top: 30px;
+    padding: 20px;
+    width: 80vw;
+    height: 60vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0.5px 0.5px 10px -5px #1f2828;
+    overflow-y: auto;
+}
+.autosave-text-wrap{
+ position: relative;
+ /* border: 1px solid #1f2828; */
+}
+
+#maintext{
+    padding: 10px;
+    width: 80%;
+    border: 1px dotted #9CC5A1;
+    border-radius: 10px;
+    background-color: #9CC5A1;
+    /* color: #0000; */
+    box-shadow: 0.5px 0.5px 10px -5px #1f2828;
+    /* position: relative; */
+}
+
+.autosave-msg{
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #216869;
+}
+.autosave-post-btn{
+    /* background-color: #DCE1DE; */
+    background: linear-gradient(90deg, #0C0C0C, #0F971C);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 10px -3px #1f2828;
+}
+
+.autosave-post-btn:hover{
+    background: #1F2421;
+}
+
+.autosave-post-btn img{
+    width: 20px;
+    height: 20px;
+}
+.autosaved-post-container{
+    /* border: 1px solid #0C0C0C; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items:center;
+    padding: 10px;
+}
+.autosaved-post-container ul{
+    list-style-type: none;
+    background-color: #DCE1DE;
+    color: #1F2421;
+    max-width: 300px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
